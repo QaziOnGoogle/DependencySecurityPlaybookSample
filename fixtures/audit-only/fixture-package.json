@@ -1,0 +1,9 @@
+{
+  "name": "audit-only-fixture-do-not-install",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Illustrative dependency-audit test data only; do not install",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
