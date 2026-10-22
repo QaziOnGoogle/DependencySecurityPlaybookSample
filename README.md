@@ -3,7 +3,7 @@
 This is a **sample repository scaffold** designed to exercise a Devin dependency-security Playbook. It models a repository containing:
 
 - 1 Angular WebUI
-- 1 Gateway API (.NET 8)
+- 1 Gateway API (.NET 10)
 - 5 Module APIs (Module1 on .NET 10, Module2-5 on .NET 8)
 - 3 legacy ASP.NET Web API projects (.NET Framework 4.8)
 - 2 WinForms projects (.NET Framework 4.8)
@@ -18,7 +18,7 @@ DependencySecurityPlaybookSample/
 ├── DependencySecurityPlaybookSample.sln
 ├── src/
 │   ├── WebUI/                         # Angular/npm, not in the .sln
-│   ├── Gateway.Api/                   # .NET 8
+│   ├── Gateway.Api/                   # .NET 10
 │   ├── Shared.Contracts/              # .NET 8 class library
 │   ├── Modules/
 │   │   ├── Module1.Api/                # .NET 10
@@ -43,7 +43,7 @@ DependencySecurityPlaybookSample/
 
 ## Requirements
 
-- Visual Studio 2022 with the .NET 8 SDK, plus the .NET 10 SDK (Visual Studio 2026) for `Module1.Api` and its tests.
+- Visual Studio 2022 with the .NET 8 SDK, plus the .NET 10 SDK (Visual Studio 2026) for `Gateway.Api`, `Module1.Api` and their tests.
 - On Windows, install the .NET Framework 4.8 Developer/Targeting Pack and ASP.NET workload to build legacy projects.
 - Node.js and npm for the Angular project.
 - Legacy .NET Framework projects may need package restore and adjustments for your installed Visual Studio/MSBuild environment.
