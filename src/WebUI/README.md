@@ -1,5 +1,10 @@
 # WebUI
 
-Angular sample manifest intentionally kept outside the Visual Studio solution.
+Angular 21 sample app intentionally kept outside the Visual Studio solution.
 
-For a real Angular workspace, commit the lockfile and use `npm ci` in CI. This minimal scaffold omits the generated lockfile; run the normal Angular install workflow if you want to build it.
+Requires Node.js `^20.19.0 || ^22.12.0 || >=24.0.0`. Install from the committed lockfile and build:
+
+```bash
+npm ci
+npm run build
+```
