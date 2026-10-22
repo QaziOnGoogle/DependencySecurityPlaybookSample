@@ -1,6 +1,6 @@
 # Module 1 API
 
-Minimal .NET 8 sample API used to test repository discovery and dependency-audit workflows.
+Minimal .NET 10 sample API used to test repository discovery and dependency-audit workflows.
 
 Run locally:
 
