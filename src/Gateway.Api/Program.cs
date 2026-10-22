@@ -7,7 +7,7 @@ app.MapGet("/", () => Results.Ok(new
 {
     application = "Gateway API",
     status = "running",
-    framework = ".NET 8"
+    framework = ".NET 10"
 }));
 
 app.MapGet("/api/gateway/status", () => Results.Ok(new
