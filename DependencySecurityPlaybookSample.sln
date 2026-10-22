@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWebApi02", "src\Legac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWebApi03", "src\Legacy\LegacyWebApi03\LegacyWebApi03.csproj", "{7843CF13-63D6-4E71-9B73-B28A490AF926}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1.Api.Tests", "tests\Module1.Api.Tests\Module1.Api.Tests.csproj", "{F2A1364F-6045-4D30-A2B9-227854DFE5F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{7843CF13-63D6-4E71-9B73-B28A490AF926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7843CF13-63D6-4E71-9B73-B28A490AF926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7843CF13-63D6-4E71-9B73-B28A490AF926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A1364F-6045-4D30-A2B9-227854DFE5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A1364F-6045-4D30-A2B9-227854DFE5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A1364F-6045-4D30-A2B9-227854DFE5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A1364F-6045-4D30-A2B9-227854DFE5F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
